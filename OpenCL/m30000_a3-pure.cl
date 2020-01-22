@@ -143,8 +143,6 @@ KERNEL_FQ void m30000_sxx (KERN_ATTR_VECTOR ())
    * modifier
    */
 
-  printf("Hello S\n");
-
   const u64 lid = get_local_id (0);
   const u64 gid = get_global_id (0);
 
